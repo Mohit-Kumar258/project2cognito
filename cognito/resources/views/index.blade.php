@@ -45,7 +45,7 @@
 
     <div class="card">
         <h2>User Information</h2>
-        <p><strong>Name:</strong> {{ $data['name'] ?? 'Not provided' }}</p>
+        <p><strong>Name:</strong> {{ $data['name'] ?? 'Mohit Kumar' }}</p>
         <p><strong>Email:</strong> {{ $data['email'] ?? 'Not provided' }}</p>
         <p><strong>Username:</strong> {{ $data['username'] ?? 'Not provided' }}</p>
     </div>
